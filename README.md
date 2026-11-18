@@ -20,15 +20,15 @@ El objetivo es recopilar los conocimientos adquiridos durante el curso, organiza
 
 ## 📊 Progreso de los ejercicios
 
-**20 de 76 ejercicios completados — 26,3 %**
+**32 de 76 ejercicios completados — 42,1 %**
 
 | Relación | Contenido | Completados | Estado |
 |:---|:---|:---:|:---:|
 | I | Ejercicios iniciales | 20/20 | ✅ |
-| II | Ejercicios con funciones | 0/20 | ⬜ |
+| II | Ejercicios con funciones | 12/20 | ⬜ |
 | III | Ejercicios con funciones - 2.ª parte | 0/20 | ⬜ |
 | IV | Ejercicios con clases y POO | 0/16 | ⬜ |
-| **Total** | **76 ejercicios** | **20/76** | **En progreso** |
+| **Total** | **76 ejercicios** | **32/76** | **En progreso** |
 
 **Leyenda:** ✅ Completado | ⬜ Pendiente
 
@@ -81,24 +81,24 @@ Introducción a la sintaxis de Dart, tipos de datos, operadores, estructuras de 
 
 ---
 
-### Relación II: Ejercicios con funciones (0/20) ⬜
+### Relación II: Ejercicios con funciones (12/20) ⬜
 
 Introducción a las funciones en Dart, parámetros, valores de retorno, modularización y recursividad.
 
 | Nº | Ejercicio | Estado |
 |:---:|:---|:---:|
-| 01 | Función sin parámetros para mostrar la fecha y hora actual (`DateTime.now()`) | ⬜ |
-| 02 | Desplazamiento horario mediante `DateTime.add()` | ⬜ |
-| 03 | Funciones con parámetros opcionales y valores por defecto | ⬜ |
-| 04 | Funciones con parámetros posicionales nullable | ⬜ |
-| 05 | Función que devuelve un objeto `DateTime` calculado | ⬜ |
-| 06 | Función para sumar los primeros `n` números naturales | ⬜ |
-| 07 | Función para calcular el factorial de un número | ⬜ |
-| 08 | Función para calcular el MCD mediante el algoritmo de Euclides | ⬜ |
-| 09 | Funciones para calcular cociente y resto, aplicando el principio SRP | ⬜ |
-| 10 | Conversión de números enteros a binario y otras bases | ⬜ |
-| 11 | Estadísticas de temperaturas utilizando listas | ⬜ |
-| 12 | Estadísticas de temperaturas utilizando `Map` | ⬜ |
+| 01 | Función sin parámetros para mostrar la fecha y hora actual (`DateTime.now()`) | ✅ |
+| 02 | Desplazamiento horario mediante `DateTime.add()` | ✅ |
+| 03 | Funciones con parámetros opcionales y valores por defecto | ✅ |
+| 04 | Funciones con parámetros posicionales nullable | ✅ |
+| 05 | Función que devuelve un objeto `DateTime` calculado | ✅ |
+| 06 | Función para sumar los primeros `n` números naturales | ✅ |
+| 07 | Función para calcular el factorial de un número | ✅ |
+| 08 | Función para calcular el MCD mediante el algoritmo de Euclides | ✅ |
+| 09 | Funciones para calcular cociente y resto, aplicando el principio SRP | ✅ |
+| 10 | Conversión de números enteros a binario y otras bases | ✅ |
+| 11 | Estadísticas de temperaturas utilizando listas | ✅ |
+| 12 | Estadísticas de temperaturas utilizando `Map` | ✅ |
 | 13 | Función `esPrimo(int n)` | ⬜ |
 | 14 | Suma de los primeros `n` números naturales mediante recursividad | ⬜ |
 | 15 | Cálculo del factorial mediante recursividad | ⬜ |
@@ -176,8 +176,6 @@ Introducción a la programación orientada a objetos en Dart, encapsulación, co
 
 ---
 
-## 📚 Conceptos trabajados
-
 ### Dart — Fundamentos ✅
 
 - Declaración de variables y tipos de datos.
@@ -188,13 +186,13 @@ Introducción a la programación orientada a objetos en Dart, encapsulación, co
 - Bucles `for` y `while`.
 - Colecciones `List`, `Map` y `Set`.
 - Records y enumeraciones.
+- Funciones y parámetros (opcionales, por defecto y nullable).
 - Entrada y salida por consola mediante `dart:io`.
 - Generación de números aleatorios con `dart:math`.
 - Gestión de excepciones mediante `try-catch-finally`.
 
 ### Dart — Próximos contenidos ⬜
 
-- Funciones y parámetros.
 - Funciones recursivas.
 - Tratamiento avanzado de cadenas.
 - Expresiones regulares y validación de datos.
