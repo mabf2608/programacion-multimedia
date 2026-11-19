@@ -20,15 +20,15 @@ El objetivo es recopilar los conocimientos adquiridos durante el curso, organiza
 
 ## 📊 Progreso de los ejercicios
 
-**32 de 76 ejercicios completados — 42,1 %**
+**40 de 76 ejercicios completados — 52,6 %**
 
 | Relación | Contenido | Completados | Estado |
 |:---|:---|:---:|:---:|
 | I | Ejercicios iniciales | 20/20 | ✅ |
-| II | Ejercicios con funciones | 12/20 | ⬜ |
+| II | Ejercicios con funciones | 20/20 | ✅ |
 | III | Ejercicios con funciones - 2.ª parte | 0/20 | ⬜ |
 | IV | Ejercicios con clases y POO | 0/16 | ⬜ |
-| **Total** | **76 ejercicios** | **32/76** | **En progreso** |
+| **Total** | **76 ejercicios** | **40/76** | **En progreso** |
 
 **Leyenda:** ✅ Completado | ⬜ Pendiente
 
@@ -81,7 +81,7 @@ Introducción a la sintaxis de Dart, tipos de datos, operadores, estructuras de 
 
 ---
 
-### Relación II: Ejercicios con funciones (12/20) ⬜
+### Relación II: Ejercicios con funciones (20/20) ✅
 
 Introducción a las funciones en Dart, parámetros, valores de retorno, modularización y recursividad.
 
@@ -99,14 +99,14 @@ Introducción a las funciones en Dart, parámetros, valores de retorno, modulari
 | 10 | Conversión de números enteros a binario y otras bases | ✅ |
 | 11 | Estadísticas de temperaturas utilizando listas | ✅ |
 | 12 | Estadísticas de temperaturas utilizando `Map` | ✅ |
-| 13 | Función `esPrimo(int n)` | ⬜ |
-| 14 | Suma de los primeros `n` números naturales mediante recursividad | ⬜ |
-| 15 | Cálculo del factorial mediante recursividad | ⬜ |
-| 16 | Cálculo del MCD mediante recursividad | ⬜ |
-| 17 | Cociente y resto mediante un procedimiento recursivo | ⬜ |
-| 18 | Generación de la serie de Fibonacci hasta `n` | ⬜ |
-| 19 | Generación de números primos entre 1 y `n` | ⬜ |
-| 20 | Creación e importación de una librería propia de funciones | ⬜ |
+| 13 | Función `esPrimo(int n)` | ✅ |
+| 14 | Suma de los primeros `n` números naturales mediante recursividad | ✅ |
+| 15 | Cálculo del factorial mediante recursividad | ✅ |
+| 16 | Cálculo del MCD mediante recursividad | ✅ |
+| 17 | Cociente y resto mediante un procedimiento recursivo | ✅ |
+| 18 | Generación de la serie de Fibonacci hasta `n` | ✅ |
+| 19 | Generación de números primos entre 1 y `n` | ✅ |
+| 20 | Creación e importación de una librería propia de funciones | ✅ |
 
 ---
 
@@ -187,16 +187,16 @@ Introducción a la programación orientada a objetos en Dart, encapsulación, co
 - Colecciones `List`, `Map` y `Set`.
 - Records y enumeraciones.
 - Funciones y parámetros (opcionales, por defecto y nullable).
+- Funciones recursivas.
+- Creación e importación de librerías propias.
 - Entrada y salida por consola mediante `dart:io`.
 - Generación de números aleatorios con `dart:math`.
 - Gestión de excepciones mediante `try-catch-finally`.
 
 ### Dart — Próximos contenidos ⬜
 
-- Funciones recursivas.
 - Tratamiento avanzado de cadenas.
 - Expresiones regulares y validación de datos.
-- Creación de librerías propias.
 - Programación orientada a objetos.
 - Herencia, abstracción y composición.
 - Pruebas unitarias.
