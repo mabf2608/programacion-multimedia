@@ -177,6 +177,8 @@ Introducción a la programación orientada a objetos en Dart, encapsulación, co
 
 ---
 
+## 📚 Conceptos trabajados
+
 ### Dart — Fundamentos ✅
 
 - Declaración de variables y tipos de datos.
@@ -195,10 +197,9 @@ Introducción a la programación orientada a objetos en Dart, encapsulación, co
 - Gestión de excepciones mediante `try-catch-finally`.
 - Manipulación de cadenas: `toUpperCase()`, `toLowerCase()`, `trim()` y cadenas multilínea.
 - Conversión de tipos mediante `parse()` y `toString()`, y formato de decimales.
-- Conversión de colecciones mediante `split()`, `map()`, `toSet()` y `Map.from()`.
-- Interpretación de datos JSON mediante `dart:convert` y `jsonDecode()`.
 - Inversión de palabras y caracteres mediante `reversed` y `join()`, y comprobación de palíndromos.
 - Búsqueda de subcadenas mediante `contains()`, `indexOf()` y `lastIndexOf()`.
+- Conversión de colecciones (`split()`, `map()`, `toSet()`, `Map.from()`) y JSON (`dart:convert`).
 
 ### Dart — Próximos contenidos ⬜
 
