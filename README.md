@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="https://docs.flutter.dev/logo.png" width="220" alt="Flutter Logo"/>
 
@@ -20,17 +21,17 @@ El objetivo es recopilar los conocimientos adquiridos durante el curso, organiza
 
 ## 📊 Progreso de los ejercicios
 
-**40 de 76 ejercicios completados — 52,6 %**
+**47 de 76 ejercicios completados — 61,8 %**
 
 | Relación | Contenido | Completados | Estado |
 |:---|:---|:---:|:---:|
 | I | Ejercicios iniciales | 20/20 | ✅ |
 | II | Ejercicios con funciones | 20/20 | ✅ |
-| III | Ejercicios con funciones - 2.ª parte | 0/20 | ⬜ |
+| III | Ejercicios con funciones - 2.ª parte | 7/20 | 🟡 |
 | IV | Ejercicios con clases y POO | 0/16 | ⬜ |
-| **Total** | **76 ejercicios** | **40/76** | **En progreso** |
+| **Total** | **76 ejercicios** | **47/76** | **En progreso** |
 
-**Leyenda:** ✅ Completado | ⬜ Pendiente
+**Leyenda:** ✅ Completado | 🟡 En progreso | ⬜ Pendiente
 
 ---
 
@@ -110,19 +111,19 @@ Introducción a las funciones en Dart, parámetros, valores de retorno, modulari
 
 ---
 
-### Relación III: Ejercicios con funciones - 2.ª parte (0/20) ⬜
+### Relación III: Ejercicios con funciones - 2.ª parte (7/20) 🟡
 
 Profundización en el tratamiento de cadenas, expresiones regulares, validación de datos, funciones y pruebas unitarias.
 
 | Nº | Ejercicio | Estado |
 |:---:|:---|:---:|
-| 01 | Entrada estándar (`dart:io`) y gestión de errores con `try-catch` | ⬜ |
-| 02 | Juego de adivinar un número entre 1 y 100 | ⬜ |
-| 03 | Comprobación de mayúsculas, minúsculas y cadenas multilínea | ⬜ |
-| 04 | Concatenación de tipos y utilización de `toString()` | ⬜ |
-| 05 | Conversión de cadenas mediante `parse()` y formato de decimales | ⬜ |
-| 06 | Inversión de frases y comprobación de palíndromos | ⬜ |
-| 07 | Búsqueda de subcadenas y posiciones en un `String` | ⬜ |
+| 01 | Entrada estándar (`dart:io`) y gestión de errores con `try-catch` | ✅ |
+| 02 | Juego de adivinar un número entre 1 y 100 | ✅ |
+| 03 | Comprobación de mayúsculas, minúsculas y cadenas multilínea | ✅ |
+| 04 | Concatenación de tipos y utilización de `toString()` | ✅ |
+| 05 | Conversión de cadenas mediante `parse()` y formato de decimales | ✅ |
+| 06 | Inversión de frases y comprobación de palíndromos | ✅ |
+| 07 | Búsqueda de subcadenas y posiciones en un `String` | ✅ |
 | 08 | Validación de colores RGB mediante expresiones regulares (`RegExp`) | ⬜ |
 | 09 | Validación de direcciones URL mediante expresiones regulares | ⬜ |
 | 10 | Validación de correos electrónicos mediante expresiones regulares | ⬜ |
@@ -192,11 +193,19 @@ Introducción a la programación orientada a objetos en Dart, encapsulación, co
 - Entrada y salida por consola mediante `dart:io`.
 - Generación de números aleatorios con `dart:math`.
 - Gestión de excepciones mediante `try-catch-finally`.
+- Manipulación de cadenas: `toUpperCase()`, `toLowerCase()`, `trim()` y cadenas multilínea.
+- Conversión de tipos mediante `parse()` y `toString()`, y formato de decimales.
+- Conversión de colecciones mediante `split()`, `map()`, `toSet()` y `Map.from()`.
+- Interpretación de datos JSON mediante `dart:convert` y `jsonDecode()`.
+- Inversión de palabras y caracteres mediante `reversed` y `join()`, y comprobación de palíndromos.
+- Búsqueda de subcadenas mediante `contains()`, `indexOf()` y `lastIndexOf()`.
 
 ### Dart — Próximos contenidos ⬜
 
-- Tratamiento avanzado de cadenas.
 - Expresiones regulares y validación de datos.
+- Menús interactivos para gestionar colecciones.
+- Manejo de URI y fechas con `intl`.
+- Funciones anónimas, funciones flecha y funciones de orden superior.
 - Programación orientada a objetos.
 - Herencia, abstracción y composición.
 - Pruebas unitarias.
