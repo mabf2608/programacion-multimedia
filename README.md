@@ -21,15 +21,15 @@ El objetivo es recopilar los conocimientos adquiridos durante el curso, organiza
 
 ## 📊 Progreso de los ejercicios
 
-**47 de 76 ejercicios completados — 61,8 %**
+**52 de 76 ejercicios completados — 68,4 %**
 
 | Relación | Contenido | Completados | Estado |
 |:---|:---|:---:|:---:|
 | I | Ejercicios iniciales | 20/20 | ✅ |
 | II | Ejercicios con funciones | 20/20 | ✅ |
-| III | Ejercicios con funciones - 2.ª parte | 7/20 | 🟡 |
+| III | Ejercicios con funciones - 2.ª parte | 12/20 | 🟡 |
 | IV | Ejercicios con clases y POO | 0/16 | ⬜ |
-| **Total** | **76 ejercicios** | **47/76** | **En progreso** |
+| **Total** | **76 ejercicios** | **52/76** | **En progreso** |
 
 **Leyenda:** ✅ Completado | 🟡 En progreso | ⬜ Pendiente
 
@@ -111,7 +111,7 @@ Introducción a las funciones en Dart, parámetros, valores de retorno, modulari
 
 ---
 
-### Relación III: Ejercicios con funciones - 2.ª parte (7/20) 🟡
+### Relación III: Ejercicios con funciones - 2.ª parte (12/20) 🟡
 
 Profundización en el tratamiento de cadenas, expresiones regulares, validación de datos, funciones y pruebas unitarias.
 
@@ -124,11 +124,11 @@ Profundización en el tratamiento de cadenas, expresiones regulares, validación
 | 05 | Conversión de cadenas mediante `parse()` y formato de decimales | ✅ |
 | 06 | Inversión de frases y comprobación de palíndromos | ✅ |
 | 07 | Búsqueda de subcadenas y posiciones en un `String` | ✅ |
-| 08 | Validación de colores RGB mediante expresiones regulares (`RegExp`) | ⬜ |
-| 09 | Validación de direcciones URL mediante expresiones regulares | ⬜ |
-| 10 | Validación de correos electrónicos mediante expresiones regulares | ⬜ |
-| 11 | Validación del DNI español y cálculo de su letra | ⬜ |
-| 12 | Creación e importación de la librería `validaciones.dart` | ⬜ |
+| 08 | Validación de colores RGB mediante expresiones regulares (`RegExp`) | ✅ |
+| 09 | Validación de direcciones URL mediante expresiones regulares | ✅ |
+| 10 | Validación de correos electrónicos mediante expresiones regulares | ✅ |
+| 11 | Validación del DNI español y cálculo de su letra | ✅ |
+| 12 | Creación e importación de la librería `validaciones.dart` | ✅ |
 | 13 | Menú interactivo para gestionar listas (`List`) | ⬜ |
 | 14 | Menú interactivo para gestionar mapas (`Map`) | ⬜ |
 | 15 | Análisis y construcción de direcciones URI mediante `Uri` | ⬜ |
@@ -200,10 +200,16 @@ Introducción a la programación orientada a objetos en Dart, encapsulación, co
 - Inversión de palabras y caracteres mediante `reversed` y `join()`, y comprobación de palíndromos.
 - Búsqueda de subcadenas mediante `contains()`, `indexOf()` y `lastIndexOf()`.
 - Conversión de colecciones (`split()`, `map()`, `toSet()`, `Map.from()`) y JSON (`dart:convert`).
+- Expresiones regulares mediante `RegExp`: delimitadores, conjuntos de caracteres, rangos, cuantificadores y agrupaciones con y sin captura.
+- Validación de cadenas mediante `hasMatch()` y utilización de Raw Strings (`r`).
+- Validación de colores RGB, direcciones URL y correos electrónicos.
+- Validación del formato del DNI español y cálculo de su letra mediante el operador módulo (`%`).
+- Extracción de subcadenas mediante `substring()` y acceso a caracteres mediante índices.
+- Evaluación en cortocircuito mediante operadores lógicos.
+- Modularización y reutilización de funciones de validación mediante la librería `validaciones.dart` e importaciones selectivas con `show`.
 
 ### Dart — Próximos contenidos ⬜
 
-- Expresiones regulares y validación de datos.
 - Menús interactivos para gestionar colecciones.
 - Manejo de URI y fechas con `intl`.
 - Funciones anónimas, funciones flecha y funciones de orden superior.

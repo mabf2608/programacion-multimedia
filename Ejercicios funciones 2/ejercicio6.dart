@@ -13,8 +13,13 @@ void main() {
     if (frase == null || frase.trim().isEmpty) {
       throw const FormatException("Entrada vacía o nula.");
     }
+    // Separamos la frase por palabras, invertimos su orden y las unimos con espacios
     print("\n" + frase.split(" ").reversed.join(" "));
+
+    // Separamos la frase por caracteres, invertimos su orden y los volvemos a unir
     print(frase.split("").reversed.join(""));
+
+    // Convertimos la frase a minúsculas y eliminamos los espacios
     aux = frase.toLowerCase().replaceAll(" ", "");
     if (aux == aux.split("").reversed.join("")) {
       print("Es un palíndromo.");

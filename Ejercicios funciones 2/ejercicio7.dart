@@ -5,6 +5,19 @@
 
 import 'dart:io';
 
+void buscarSubcadena(String frase, String subcadena) {
+  String minFrase = frase.toLowerCase();
+  String minSubcadena = subcadena.toLowerCase();
+
+  if (minFrase.contains(minSubcadena)) {
+    print(
+      "La primera aparición es en la posición ${minFrase.indexOf(minSubcadena)} y la última en la ${minFrase.lastIndexOf(minSubcadena)}",
+    );
+  } else {
+    print("No se encontró la subcadena dentro de la frase.");
+  }
+}
+
 void main() {
   stdout.write("Escribe una frase para iniciar el proceso: ");
   String? frase = stdin.readLineSync();
@@ -19,16 +32,8 @@ void main() {
       throw const FormatException("Subcadena vacía o nula.");
     }
 
-    String minusculas = frase.toLowerCase();
-    String minSubcadena = subcadena.toLowerCase();
-
-    if (minusculas.contains(minSubcadena)) {
-      print(
-        "La primera aparición es en la posición ${minusculas.indexOf(minSubcadena)} y la última en la ${minusculas.lastIndexOf(minSubcadena)}"
-      );
-    } else {
-      print("No se encontró la subcadena dentro de la frase.");
-    }
+    buscarSubcadena(frase, subcadena);
+    
   } on FormatException catch (e) {
     print("Error de formato: $e");
   } catch (e) {

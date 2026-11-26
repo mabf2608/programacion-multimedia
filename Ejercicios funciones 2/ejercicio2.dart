@@ -16,6 +16,8 @@ import 'dart:math';
 
 void main() {
   var aleatorio = Random();
+
+  // Generamos un número aleatorio entre 1 y 100, ambos incluidos
   int nSecreto = aleatorio.nextInt(100) + 1;
   bool seguir = true;
   int intentos = 0;
@@ -29,6 +31,7 @@ void main() {
     String? respuesta = stdin.readLineSync();
     print("---------------------------------------------");
     int? n;
+
     //Se cuentan todos los intentos, sean válidos o no.
     intentos++;
 
